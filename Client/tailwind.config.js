@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "KBC-Background-Image": "url('./src/assets/kbc_image.jpg')",
+        "KBC-Background-Image": "url('./public/kbc_image.jpg')",
       },
       colors: {
         "kbc-color1": "#381F57",

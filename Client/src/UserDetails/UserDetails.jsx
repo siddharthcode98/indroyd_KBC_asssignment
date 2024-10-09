@@ -5,7 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 import { io } from "socket.io-client";
 
-const socket = io("ws://localhost:5000");
+const socket = io("ws://indroyd-kbc-asssignment.onrender.com/");
 
 export default function UserDetails() {
   const [name, setName] = useState("");

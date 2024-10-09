@@ -10,7 +10,7 @@ app.use(cors);
 
 const io = socketIo(Server, {
   cors: {
-    origin: "https://indroyd-kbc-asssignment.onrender.com",
+    origin: "https://indroyd-kbc-asssignment.onrender.com/",
     method: ["GET", "POST"],
   },
 });
