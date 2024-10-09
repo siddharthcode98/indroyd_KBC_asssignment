@@ -8,9 +8,11 @@ const app = express();
 const Server = http.createServer(app);
 app.use(cors());
 
+app.use("/", express.static("dist"));
+
 const io = socketIo(Server, {
   cors: {
-    origin: "https://indroyd-kbc-asssignment.onrender.com/",
+    origin: "https://gentle-blini-ca3df7.netlify.app",
     method: ["GET", "POST"],
   },
 });
