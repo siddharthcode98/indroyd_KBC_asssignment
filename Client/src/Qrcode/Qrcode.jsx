@@ -7,7 +7,7 @@ const Qrcode = () => {
       </h1>
       <div className="flex justify-center">
         <QRCodeCanvas
-          value={`https://gentle-blini-ca3df7.netlify.app/`}
+          value={`https://gentle-blini-ca3df7.netlify.app/game`}
           size={300}
           title="Scan the QR Code to play the game"
         />
