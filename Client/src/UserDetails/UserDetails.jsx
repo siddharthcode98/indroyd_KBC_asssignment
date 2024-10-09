@@ -113,7 +113,7 @@ export default function UserDetails() {
   return (
     <div>
       {!info ? (
-        <div className="bg-KBC-Background-Image h-screen w-full  flex flex-col justify-center bg-contain p-3">
+        <div className="bg-kbc-color2 h-screen w-full  flex flex-col justify-center bg-contain p-3">
           <div className="bg-gradient-to-r from-kbc-color1 to-kbc-color2 h-[300px] flex flex-col justify-center rounded-2xl shadow-md  text-cyan-50 gap-3 p-2 md:ml-[25%] md:mr-[25%]  ">
             <h1 className="text-center font-bold text-lg ">
               Enter your Details
